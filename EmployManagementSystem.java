@@ -1,29 +1,10 @@
 /******************** Importing Essential Libraries ************************/
 
-import java.util.*;
-import java.io.*;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
 
-
-/*************************** MENU OF EMS ****************************/
-
-class MainMenu
-{
-  public void menu()
-  {
-    System.out.println("\t\t*******************************************");
-    System.out.println("\t\t\t  EMPLOYEE MANAGEMENT SYSTEM");
-    System.out.println("\t\t*******************************************");
-    System.out.println("\t\t\t    --------------------");
-    System.out.println("\t\t\t     ~$ Abhinav Dubey");
-    System.out.println("\t\t\t    --------------------");
-    System.out.println("\n\nPress 1 : To Add an Employee Details");
-    System.out.println("Press 2 : To See an Employee Details ");
-    System.out.println("Press 3 : To Remove an Employee");
-    System.out.println("Press 4 : To Update Employee Details");
-    System.out.println("Press 5 : To Exit the EMS Portal");
-
-  }
-}
 
 /************************ To add details of Employee *********************/
 
@@ -31,7 +12,7 @@ class Employee_Add
 {
     public void createFile()
     {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc =new Scanner(System.in);
 
         EmployDetail emp=new EmployDetail();
         emp.getInfo();
@@ -152,17 +133,7 @@ class Employee_Update
 
 /************************ To Exit from the EMS Portal *********************/
 
-class CodeExit
-{
-  public void out()
-  {
-    System.out.println("\n*****************************************");
-    System.out.println("$ cat Thank You For Using my Software :) ");
-    System.out.println("*****************************************");
-    System.out.println("\t\t/~ <0d3d by Abhinav Dubey\n");
-    System.exit(0);
-  }
-}
+
 
 
 /***************************** Main Class *******************************/
@@ -276,4 +247,4 @@ class EmployManagementSystem
   }
 }
 
-/****************************** CODED BY ABHINAV DUBEY ************************/
+/****************************** CODED BY Mohit Patel ************************/

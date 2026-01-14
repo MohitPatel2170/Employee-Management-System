@@ -1,0 +1,7 @@
+Employee ID:990
+Employee Name     :MOhit
+Father's Name     :om
+Employee Contact  :898089889
+Email Information :mohi
+Employee position :kuch bhi
+Employee Salary   :89000
